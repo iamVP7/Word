@@ -1,9 +1,25 @@
-Word
-====
 
-Here I have created a very small game which children would love.
-This will give them a good learning experience. 
-All you have to do is tap the dictionary words and gain the points. 
-I have made only for 3 and 4 Letter words. Have to enhance the list of letters.
-For every 3 letter word you will get 3 points and for  4 letter words you will have 4 points.   
-This is working fine with Firefox, Chrome. and I have also tried in Firefox OS simulator. It is working great.  
+# A Simple Web Game
+
+The is a small template that comes with a working game where you can
+move the player around. Use this to start your game!
+
+If you look in `www/js/app.js,` you'll see that this comes with a
+basic render loop, a player enttiy, and an input library.
+
+This is part of the [mortar](https://github.com/mozilla/mortar/)
+template collection for building Open Web Apps.
+
+# Usage
+
+There are a few ways to get this template:
+
+* git clone git@github.com:mozilla/mortar-game-stub.git myapp
+* volo create myapp mozilla/mortar-game-stub
+
+If you have node installed, you can run a development server with volo:
+
+* cd myapp
+* volo serve
+
+View the game at http://localhost:8008/.
