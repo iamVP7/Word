@@ -1,7 +1,7 @@
 function word3(word)
 {
-switch(word)
-{
+  switch(word)
+  {
 case 'AAH': case 'AAL':	case 'ABA': case 'ABO':case 'ABS':case 'ABY': case 'ACE':case 'ACT':case 'ADD':case 'ADO':case 'ADS':case 'ADZ':case 'AFF':case 'AFT':case 'AGA':case 'AGE':case 'AGO':case 'AGS':case 'AHA':case 'AHI':case 'AHS':case 'AID':case 'AIL':case 'AIM':case 'AIN':case 'AIR':case 'AIS':case 'AIT':case 'ALA':case 'ALB':case 'ALE':case 'YEH':case 'ZAG':case 'YEN':case 'YEP':case 'YES':case 'YET':case 'YEW':case 'YID':case 'YOD':case 'YOK':case 'YOM':case 'YUK':case 'YUM':case 'YUP':case 'ZAP':case 'ZAS':case 'ZAX':case 'ZED':case 'ZEE':case 'ZEK':case 'ZEP':case 'ZIT':case 'ZZZ ':case 'ALL':case 'YIN':case 'YON':case 'YOU':case 'YOW':case 'ALP':case 'ALS':case 'ALT':case 'AMA':case 'ANI':case 'AMI':case 'ANA':case 'ZOA':case 'ZIG':case 'ANT':case 'ANY':case 'APE':case 'ARK':case 'YIP':case 'APO':case 'APP ':case 'APT':case 'ARB':case 'ARC':case 'ARE':case 'ARF':case 'AMP':case 'AND':case 'ZOO':case 'ARM':case 'ZIN':case 'ARS':case 'ART':case 'ASH':case 'ASK':case 'YOB':case 'ASP':case 'ASS':case 'ATE':case 'ATT':case 'AXE':case 'AVA':case 'AMU':case 'ANE':case 'ZUZ':case 'AVE':case 'BAH':case 'ZIP':case 'AUK':case 'AVO':case 'AWA':case 'AWE':case 'AWL':case 'AYE':case 'AYS':case 'AZO':case 'BAA':case 'BAD':case 'BAG':case 'BAM':case 'BAN':case 'BAP':case 'BAR':case 'BAS':case 'BAT':case 'BAY':case 'BED':case 'BEE':case 'BEG':case 'BEL':case 'BEN':case 'BES':case 'BET':case 'BEY':case 'BIG':case 'BIS':case 'BIT':case 'BIZ':case 'BOA':case 'BOB':case 'BOD':case 'BOG':case 'BOO':case 'BOP':case 'BOS':case 'BOT':case 'BOW':case 'BOX':case 'BOY':case 'BRA':case 'BIB':case 'BIN':case 'BRO':case 'BRR':case 'BUB':case 'BUD':case 'BUG':case 'BUM':case 'BUN':case 'BUR':case 'BUS':case 'BUT':case 'BUY':case 'BYE':case 'BYS':case 'CAB':case 'CAD':case 'BID':case 'BIO':case 'CAM':case 'CAN':case 'CAP':case 'CAR':case 'CAY':case 'CEP':case 'CIG':case 'CIS':case 'COB':case 'COD':case 'COG':case 'COL':case 'CON':case 'COO':case 'COP':case 'COR':case 'COS':case 'COT':case 'COW':case 'COX':case 'CAT':case 'CEE':case 'CHI':case 'COY':case 'COZ':case 'CRU':case 'CRY':case 'CUB':case 'CUD':case 'CUE':case 'CUP':case 'CUT':case 'CWM':case 'DAB':case 'DAD':case 'DAG':case 'DAH':case 'CAW':case 'CEL':case 'DAM':case 'DAN':case 'DAP':case 'DAW':case 'DAY':case 'DEB':case 'CUM':case 'CUR':case 'DEE': case 'DEF':case 'DEL':case 'DEN':case 'DEV':case 'DEW':case 'DEX':case 'DEY':case 'DIB':case 'DID':case 'DIE':case 'DIF':case 'DIG':case 'DIM':case 'DIN':case 'DIP':case 'DIS':case 'DIT':case 'DOC':case 'DUE':case 'DOE':case 'DOG':case 'COL':case 'DOM':case 'DON':case 'DOR':case 'DOS':case 'DOT':case 'DOW':case 'DRY':case 'DUB':case 'DUD':case 'DUG':case 'DUH':case 'DUI':case 'DUN':case 'DUI':
 case 'DUO':case 'DUP':case 'DYE':case 'EAR':case 'EAT':	case 'EAU':	case 'EBB':	case 'ECU':	
 case 'EDH':	case 'EDS':
@@ -700,20 +700,14 @@ case 'YAM':
 case 'YAP':
 case 'YAR':
 case 'YAW':
-{
-see=document.getElementById('pts').innerHTML;
-num=parseInt(see);
-add=3;
-document.getElementById('pts').innerHTML=num+parseInt(add);
-break;
-}
-}
-var tex=document.getElementById('tb');
-tex.value="";
+    {
+      see=document.getElementById('pts').innerHTML;
+      num=parseInt(see);
+      add=3;
+      document.getElementById('pts').innerHTML=num+parseInt(add);
+      break;
+    }
+  }
+  var tex=document.getElementById('tb');
+  tex.value="";
 } 
-
-
-
-
-	
-

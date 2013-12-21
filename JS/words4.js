@@ -1,8 +1,7 @@
 function word4(word)
 {
-
-switch(word)
-{
+  switch(word)
+  {
 case 'AAHS':
 case 'AALS':
 case 'ABAS':
@@ -4042,14 +4041,14 @@ case'FUZE':
 case'FUZZ':
 case'FYCE':
 case'FYKE':
-{
-see=document.getElementById('pts').innerHTML;
-num=parseInt(see);
-add=4;
-document.getElementById('pts').innerHTML=num+parseInt(add);
-break;
-}
-}
-var tex=document.getElementById('tb');
-tex.value="";
+    {
+      see=document.getElementById('pts').innerHTML;
+      num=parseInt(see);
+      add=4;
+      document.getElementById('pts').innerHTML=num+parseInt(add);
+      break;
+    }
+  }
+  var tex=document.getElementById('tb');
+  tex.value="";
 }
