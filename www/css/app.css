@@ -1,0 +1,36 @@
+.main {
+  width: 280px;
+  height: 400px;
+  border: 5px solid;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+.centered {
+  width: 70;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10;
+}
+
+.navigation {
+  position: relative;
+  top: 50px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#next1, #next2, #next3 {
+  width: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#prev1, #prev2, #prev3 {
+  widgh: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+}

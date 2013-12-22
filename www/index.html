@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
@@ -7,34 +6,66 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width">
 
-  <link href="css/firstcolor.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="css/brick.css"/>
+  <link rel="stylesheet" type="text/css" href="css/app.css"/>
+  <script type="text/javascript" src="js/lib/brick.js"></script>
+</head>
+<body>
+  <div id="arena">
+    <x-deck id="deck">
+      <x-card style="background: blue;">
+        <div class="main">
+          <h2 class="centered">Words</h2>
+          <br><br><br>
+          <div class="centered">
+            <button class="centered" id="play">Play</button><br>
+            <button class="centered" id="inst">Instructions</button><br>
+          </div>
+        </div>
+      </x-card>
+      <x-card style="background: yellow;">
+        <div class="main">
+          <h3 class="centered">Play</h2>
+          <br><br><br>
+          <div class="centered">
+            <button class="centered" id="playBack">Back</button>
+            <button class="centered" id="pause">Pause</button>
+          </div>
+        </div>
+      </x-card>
+      <x-card style="background: green;">
+        <div class="main">
+          <h2 class="centered">Instructions</h2>
+          <br><br>
+          <p class="centered">Some use ful instructions</p>
+          <br><br>
+          <div class="centered">
+            <button class="centered" id="instBack">Back</button>
+          </div>
+        </div>
+      </x-card>
+    </x-deck>
+  </div>
   <script>
-    function cl() {
-      window.close();
+    var next = document.getElementsByClassName("next");
+    var prev = document.getElementsByClassName("prev");
+    var deck = document.getElementById("duck");
+    var i;
+
+    for (i of next) {
+      i.addEventListener("click", function() {
+        deck.shuffleNext();
+      });
+    }
+
+    for (i of next) {
+      i.addEventListener("click", function() {
+        deck.shufflePrev();
+      });
     }
   </script>
-</head>
-<body  class="bgc" align="middle">
-  <div align="center">
-    <h1 align="center" class="tex"> WORDS !!! </h1>
-
-    <form align="centre" action="game.html">
-	    <button  value="New Game" type="submit" class="first" >New Game</button><br />
-    </form> <!-- for loading new game -->
-
-    <form action="ins.html"> <!-- for reading instruction -->
-	    <button value="Instruction" class="first">Instruction</button><br />
-    </form>
-
-    <form action="cl()">
-      <input type="button" value="Exit" id="ex" onClick="cl()"></input>
-    </form>
-  </div>
-  
   <script type="text/javascript"
           data-main="js/init.js"
           src="js/lib/require.js"></script>
 </body>
 </html>
-
-
