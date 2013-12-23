@@ -1,5 +1,5 @@
 {
-  "name": "words",
+  "name": "Ahoy! words",
   "description": "My elevator pitch goes here",
   "launch_path": "/index.html",
   "icons": {
@@ -8,7 +8,10 @@
     "128": "/img/icons/icon-128.png"
   },
   "developer": {
-    "name": "Viswaprasath",
+    "name": [
+      "Viswaprasath",
+      "darkowlzz <indiasuny000@gmail.com>"
+    ],
     "url": "http://your-homepage-here.org"
   },
   "default_locale": "en"

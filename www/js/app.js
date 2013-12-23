@@ -1,5 +1,6 @@
 define(function (require) {
 
+  require('./game');
   var deck = document.getElementById("deck");
 
   // Card 0
@@ -24,6 +25,8 @@ define(function (require) {
 
   pause.addEventListener("click", function() {
     console.log("pause the game");
+
+
   });
 
   // Card 2
