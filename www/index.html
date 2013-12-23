@@ -1,0 +1,80 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="stylesheet" type="text/css" href="css/brick.css"/>
+  <link rel="stylesheet" type="text/css" href="css/app.css"/>
+  <script type="text/javascript" src="js/lib/brick.js"></script>
+</head>
+<body>
+  <div id="arena">
+    <x-deck id="deck">
+
+      <!-- Card 0 -->
+      <x-card style="background: blue;">
+        <div class="main">
+          <h2 class="centered">Words</h2>
+          <br><br><br>
+          <div class="centered">
+            <button class="centered" id="play">Play</button><br>
+            <button class="centered" id="inst">Instructions</button><br>
+          </div>
+        </div>
+      </x-card>
+
+      <!-- Card 1 -->
+      <x-card style="background: yellow;">
+        <div class="main">
+          <h3 class="centered">Play</h2>
+          <br>
+          <div id="here">
+          </div>
+          <br><br>
+          <div class="centered">
+            <button class="centered" id="playBack">Back</button>
+            <button class="centered" id="pause">Pause</button>
+          </div>
+        </div>
+      </x-card>
+
+      <!-- Card 2 -->
+      <x-card style="background: green;">
+        <div class="main">
+          <h2 class="centered">Instructions</h2>
+          <br><br>
+          <p class="centered">Some use ful instructions</p>
+          <br><br>
+          <div class="centered">
+            <button class="centered" id="instBack">Back</button>
+          </div>
+        </div>
+      </x-card>
+    </x-deck>
+  </div>
+  <script>
+    var next = document.getElementsByClassName("next");
+    var prev = document.getElementsByClassName("prev");
+    var deck = document.getElementById("duck");
+    var i;
+
+    for (i of next) {
+      i.addEventListener("click", function() {
+        deck.shuffleNext();
+      });
+    }
+
+    for (i of next) {
+      i.addEventListener("click", function() {
+        deck.shufflePrev();
+      });
+    }
+  </script>
+  <script type="text/javascript"
+          data-main="js/init.js"
+          src="js/lib/require.js"></script>
+</body>
+</html>
